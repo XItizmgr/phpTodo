@@ -8,6 +8,6 @@
   </head>
   <body>
     <nav-bar><nav-bar/>
-    <script type="module" src="public/components/navbar.js"></script>
+    <script type="module" src="public/components/navbar/navbar.js"></script>
   </body>
 </html>

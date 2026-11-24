@@ -1,6 +1,12 @@
 class Navbar extends HTMLElement {
+    constructor(){
+        super();
+        this.attachShadow({mode:"open"})
+    }
+
     connectedCallback() {
-        this.innerHTML = `
+        this.shadowRoot.innerHTML = `
+        <link rel="stylesheet" href = "public/components/navbar/navbar.css"/>
         <header>
       <nav>
         <div class="nav-logo">
