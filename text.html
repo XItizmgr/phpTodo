@@ -1,1 +1,22 @@
-<link rel="stylesheet" href="/public/components/home/home.css">
+<link rel="stylesheet" href="/public/components/authentication/auth.css" />
+<div class="form-container">
+  <div class="form-left">
+    <div class="logo">
+      <h2>XITIZ</h2>
+    </div>
+  </div>
+  <div class="form-right">
+    <div class="form-content">
+      <header class="form-header">
+        <h1>Welcome back dearr !</h1>
+        <p>Log in to continue your tasks.</p>
+      </header>
+      <form action="/backend/authentication/login.php" method="POST" class="login-form">
+        <div class="form-group">
+            <label for="email">Email.</label>
+        </div>
+      </form>
+
+    </div>
+  </div>
+</div>

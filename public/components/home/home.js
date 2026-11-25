@@ -3,4 +3,12 @@ class home extends HTMLElement{
         super()
         this.attachShadow({mode:"open"})
     }
+
+connectedCallback(){
+    this.shadowRoot.innerHTML = `
+    
+    
+    
+    `
+}
 }

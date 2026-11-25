@@ -1,8 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
 :root {
     --background-bg: #f4f0e7;
+    --background-card: #FBF9F3;
+    --background-soft: #EAEBDD;
+    --background-focus: #E9E9D9;
+
     --primary-color: #424C3D;
     --secondary-color: #A8B39B;
 
@@ -15,7 +18,7 @@
     --text-primary: #424C3D;
     --text-secondary: #77816F;
     --text-light: #F5F3EA;
-
+    --text-muted: #96998A;
     --border-color: #DDE2D2;
 }
 
