@@ -1,11 +1,12 @@
 class login extends HTMLElement {
-    constructor() {
-        super()
-        this.attachShadow({ mode: "open" })
-    }
-    connectedCallback() {
-        this.shadowRoot.innerHTML = `
-            <link rel="stylesheet" href="/public/components/authentication/auth.css" />
+  constructor() {
+    super()
+    this.attachShadow({ mode: "open" })
+  }
+  connectedCallback() {
+    this.shadowRoot.innerHTML = `
+       <link rel="stylesheet" href="/PhpTodo/public/components/authentication/auth.css">
+       <section class="container">
 <div class="form-container">
   <div class="form-left">
     <div class="logo">
@@ -60,9 +61,10 @@ class login extends HTMLElement {
     </div>
   </div>
 </div>
+</section>
 
         
         `
-    }
+  }
 }
-customElements.define("login-page",login)
+customElements.define("login-page", login)
