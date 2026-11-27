@@ -23,5 +23,28 @@ input {
   padding: 45px 40px;
   overflow: hidden;
   background-color: linear-gradient(155deg, transparent 70%, #77866c 70%), linear-gradient(165deg, transparent 70%, #a8b39b 70%), var(--background-soft);
- 
+}
+
+.form-left::before {
+  content: " ";
+  position: absolute;
+  z-index: 1;
+  left: -10%;
+  bottom: 0;
+  width: 125%;
+  height: 35%;
+  background: #dde2d2;
+  clip-path: polygon(0 55%, 25% 25%, 48% 50%, 72% 10%, 100% 35%, 100% 100%, 0 100%);
+}
+
+.form-left::after {
+  content: " ";
+  position: absolute;
+  z-index: 2;
+  left: -5%;
+  bottom: 0;
+  width: 115%;
+  height: 25%;
+  background: #a8b39b;
+  clip-path: polygon(0 45%, 28% 5%, 55% 55%, 78% 20%, 100% 40%, 100% 100%, 0 100%);
 }
