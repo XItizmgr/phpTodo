@@ -73,7 +73,7 @@ input {
 
 .left-img {
   position: absolute;
-  z-index: 3;
+  z-index: 0;
   inset: 75px 0 0;
   background-image: url("/PhpTodo/public/images/flower.png");
   background-repeat: no-repeat;

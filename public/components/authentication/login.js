@@ -24,7 +24,7 @@ class login extends HTMLElement {
       </header>
       <form action="/backend/authentication/login.php" method="POST" class="login-form">
         <div class="form-group">
-          <label for="email">Email.</label>
+          <label for="email">Email</label>
           <div class="input-form">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2" />
