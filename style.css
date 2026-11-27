@@ -1,39 +1,40 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
 :root {
-    --background-bg: #f4f0e7;
-    --background-card: #FBF9F3;
-    --background-soft: #EAEBDD;
-    --background-focus: #E9E9D9;
+  --background-bg: #f4f0e7;
+  --background-card: #fbf9f3;
+  --background-soft: #ecebdd;
+  --background-focus: #e9e9d9;
 
-    --primary-color: #424C3D;
-    --secondary-color: #A8B39B;
+  --primary-color: #424c3d;
+  --secondary-color: #a8b39b;
 
-    --button-primary: #77866C;
-    --button-primary-hover: #65765A;
+  --button-primary: #77866c;
+  --button-primary-hover: #65765a;
 
-    --button-secondary: #DDE2D2;
-    --button-secondary-hover: #CDD5C1;
+  --button-secondary: #dde2d2;
+  --button-secondary-hover: #cdd5c1;
 
-    --text-primary: #424C3D;
-    --text-secondary: #77816F;
-    --text-light: #F5F3EA;
-    --text-muted: #96998A;
-    --border-color: #DDE2D2;
+  --text-primary: #424c3d;
+  --text-secondary: #77816f;
+  --text-light: #f5f3ea;
+  --text-muted: #96998a;
+
+  --border-color: #e2ded2;
+
+  --shadow: 0 12px 35px rgba(66, 76, 61, 0.09);
 }
-
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: var(--background-bg);
-    color: var(--text-primary);
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--background-bg);
+  color: var(--text-primary);
 }

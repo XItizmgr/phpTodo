@@ -11,6 +11,9 @@ class login extends HTMLElement {
     <div class="logo">
       <h2>XITIZ</h2>
     </div>
+    <div class="left-img">
+   
+    </div>
   </div>
   <div class="form-right">
     <div class="form-content">
@@ -62,3 +65,4 @@ class login extends HTMLElement {
         `
     }
 }
+customElements.define("login-page",login)
