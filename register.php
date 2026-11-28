@@ -6,6 +6,7 @@
     <title>Register</title>
 </head>
 <body>
-    
+    <register-page></register-page>
+   <script type="module" src="public/components/authentication/register.js"></script>
 </body>
 </html>

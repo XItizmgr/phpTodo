@@ -1,9 +1,11 @@
 .container {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 90vh;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px 0;
 }
 
 .form-container {
@@ -262,3 +264,25 @@ input {
 .register-des a:hover {
   color: var(--primary-color);
 }
+
+.toggle-password {
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.toggle-password svg {
+  width: 20px;
+  height: 20px;
+}
+
+.toggle-password:hover {
+  color: var(--primary-color);
+}
+
+/* For register */

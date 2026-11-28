@@ -42,6 +42,8 @@ class login extends HTMLElement {
               <circle cx="12" cy="15" r="1.5" fill="currentColor" />
             </svg>
             <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="current-password" required />
+               <button class="toggle-password">
+              </button>
           </div>
         </div>
         <div class="form-option">
@@ -62,9 +64,41 @@ class login extends HTMLElement {
   </div>
 </div>
 </section>
+`
+    // const passwordInput = this.shadowRoot.querySelector("#password");
+    // const togglePassword = this.shadowRoot.querySelector(".toggle-password");
 
-        
-        `
+    // const open = `
+    //   <svg viewBox="0 0 24 24" aria-hidden="true">
+    //     <path d="M2.5 12s3.5-7 9.5-7 9.5 7 9.5 7-3.5 7-9.5 7-9.5-7-9.5-7Z"
+    //       fill="none" stroke="currentColor" stroke-width="1.7"/>
+    //     <circle cx="12" cy="12" r="3"
+    //       fill="none" stroke="currentColor" stroke-width="1.7"/>
+    //   </svg>
+    // `;
+
+    // const close = `
+    //   <svg viewBox="0 0 24 24" aria-hidden="true">
+    //     <path d="M3 3l18 18M10.6 10.6a2 2 0 0 0 2.8 2.8"
+    //       fill="none" stroke="currentColor" stroke-width="1.7"
+    //       stroke-linecap="round"/>
+    //     <path d="M9.9 5.2A10 10 0 0 1 12 5c6 0 9.5 7 9.5 7a15 15 0 0 1-3.2 3.9M6.2 6.2C3.5 8.1 2.5 12 2.5 12s3.5 7 9.5 7c1.5 0 2.8-.4 4-1"
+    //       fill="none" stroke="currentColor" stroke-width="1.7"
+    //       stroke-linecap="round"/>
+    //   </svg>
+    // `;
+    // togglePassword.innerHTML = open;
+
+    // togglePassword.addEventListener("click", () => {
+    //   const isPassword = passwordInput.type === "password";
+
+    //   passwordInput.type = isPassword ? "text" : "password";
+
+    //   togglePassword.innerHTML = isPassword ? close : open;
+    // });
+
+
   }
 }
-customElements.define("login-page", login)
+
+customElements.define("login-page",login)
