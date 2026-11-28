@@ -8,7 +8,7 @@ class register extends HTMLElement {
             <link rel="stylesheet" href="/PhpTodo/public/components/authentication/auth.css" />
 
 <section class="container">
-  <div class="form-container">
+  <div class="register-container form-container">
     <div class="form-left">
       <div class="logo">
         <h2>XITIZ</h2>
